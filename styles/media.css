@@ -1,0 +1,80 @@
+@media (min-width: 1255px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 300px;
+    height: 300px;
+    margin: 15px 15px;
+  }
+
+  .card1 img,
+  .card2 img,
+  .card3 img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (min-width: 922px) and (max-width: 1255px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 250px;
+    height: 250px;
+    margin: 15px 25px;
+  }
+
+  .card1 img,
+  .card2 img,
+  .card3 img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 922px) {
+      .card1,
+      .card2,
+      .card3 {
+        width: 200px;
+        height: 200px;
+        margin: 15px 25px;
+      }
+      
+      .card1 img,
+      .card2 img,
+      .card3 img {
+        width: 100px;
+        height: 100px;
+      }
+      footer {
+        flex-wrap: wrap;
+      }
+      footer h3 {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+}
+@media (max-width: 768px){
+    .card1,
+    .card2,
+    .card3 {
+      width: 200px;
+      height: 200px;
+      margin: 15px 25px;
+    }
+    
+    .card1 img,
+    .card2 img,
+    .card3 img {
+      width: 100px;
+      height: 100px;
+    }
+    footer {
+        flex-wrap: wrap;
+      }
+      footer h3 {
+        font-size: 15px;
+        margin-top: 8px;
+      }
+}
